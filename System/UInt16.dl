@@ -1,0 +1,19 @@
+import System;
+
+[Size=2]
+class UInt16 implements IConvertible, IEquatable<UInt16>, IHashable
+{
+	public bool equals(const UInt16 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using uint16 = UInt16;

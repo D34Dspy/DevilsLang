@@ -1,0 +1,20 @@
+import System;
+
+[Size=4]
+class Int32 implements IConvertible, IEquatable<Int32>, IHashable
+{
+	public bool equals(const Int32 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using int = Int32;
+using int32 = Int32;

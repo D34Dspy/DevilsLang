@@ -1,0 +1,19 @@
+import System;
+
+[Size=1]
+class Int8 implements IConvertible, IEquatable<Int8>, IHashable
+{
+	public bool equals(const Int8 &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using int8 = Int8;

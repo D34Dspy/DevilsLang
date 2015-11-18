@@ -7,7 +7,7 @@ class Boolean implements IConvertible, IEquatable<Boolean>, IHashable
 	{
 	}
 
-	public uint32 getHashCode()
+	public uint getHashCode()
 	{
 	}
 
@@ -15,3 +15,5 @@ class Boolean implements IConvertible, IEquatable<Boolean>, IHashable
 	{
 	}
 }
+
+using bool = Boolean;

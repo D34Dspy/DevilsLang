@@ -1,0 +1,19 @@
+import System;
+
+[Size=8]
+class Int64 implements IConvertible, IEquatable<Int64>, IHashable
+{
+	public bool equals(const Int64 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using int64 = Int64;

@@ -1,0 +1,20 @@
+import System;
+
+[Size=4]
+class UInt32 implements IConvertible, IEquatable<UInt32>, IHashable
+{
+	public bool equals(const UInt32 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using uint = UInt32;
+using uint32 = UInt32;

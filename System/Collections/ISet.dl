@@ -1,7 +1,7 @@
 import System;
 import System.Collections;
 
-interface ISet<T extends IEquatable & IHashable> implements IEnumerable<T>
+interface ISet<T extends IEquatable<T> & IHashable> implements IEnumerable<T>
 {
 	public abstract IEnumerator<T> getEnumerator();
 }

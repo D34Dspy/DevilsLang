@@ -3,6 +3,9 @@ import System;
 [Size=1]
 class UInt8 implements IConvertible, IEquatable<UInt8>, IHashable
 {
+	const UInt8 MIN_VALUE = 0x0;
+	const UInt8 MAX_VALUE = 0xFF;
+
 	public bool equals(const UInt8 &other)
 	{
 	}

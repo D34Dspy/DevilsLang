@@ -1,7 +1,7 @@
 import System;
 import System.Collections;
 
-class HashMap<K extends IEquatable & IHashable, V> implements IMap<V>
+class HashMap<K extends IEquatable<K> & IHashable, V> implements IMap<V>
 {
 	public abstract IEnumerator<V> getEnumerator();
 }

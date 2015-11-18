@@ -1,7 +1,7 @@
 import System;
 import System.Collections;
 
-class HashSet<T extends IEquatable & IHashable> implements ISet<T>
+class HashSet<T extends IEquatable<T> & IHashable> implements ISet<T>
 {
 	public abstract IEnumerator<T> getEnumerator();
 }

@@ -1,0 +1,19 @@
+import System;
+
+[Size=4]
+class Float implements IConvertible, IEquatable<Float>, IHashable
+{
+	public bool equals(const Float &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using float = Float;

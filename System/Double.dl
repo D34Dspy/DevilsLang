@@ -1,0 +1,19 @@
+import System;
+
+[Size=8]
+class Double implements IConvertible, IEquatable<Double>, IHashable
+{
+	public bool equals(const Double &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using double = Double;

@@ -4,3 +4,5 @@ import System;
 class Void
 {
 }
+
+using void = Void;

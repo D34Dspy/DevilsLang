@@ -1,0 +1,10 @@
+import System;
+
+[Size=1]
+class Boolean implements IConvertible
+{
+	public String toString()
+	{
+		
+	}
+}

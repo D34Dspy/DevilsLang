@@ -1,0 +1,6 @@
+import System;
+
+interface IConvertible
+{
+	public abstract String toString();
+}

@@ -2,5 +2,5 @@ import System;
 
 interface IEquatable<T>
 {
-	public abstract bool equals(const T &other);
+	public abstract bool operator==(const T &other);
 }

@@ -3,7 +3,7 @@ import System;
 [Size=8]
 class Double implements IConvertible, IEquatable<Double>, IHashable
 {
-	public bool equals(const Double &other)
+	public bool operator==(const Double &other)
 	{
 	}
 

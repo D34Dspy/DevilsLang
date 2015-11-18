@@ -6,7 +6,7 @@ class Int16 implements IConvertible, IEquatable<Int16>, IHashable
 	const Int16 MIN_VALUE = 0x8000;
 	const Int16 MAX_VALUE = 0x7FFF;
 
-	public bool equals(const Int16 &other)
+	public bool operator==(const Int16 &other)
 	{
 	}
 

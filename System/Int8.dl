@@ -6,7 +6,7 @@ class Int8 implements IConvertible, IEquatable<Int8>, IHashable
 	const Int8 MIN_VALUE = 0x80;
 	const Int8 MAX_VALUE = 0x7F;
 
-	public bool equals(const Int8 &other)
+	public bool operator==(const Int8 &other)
 	{
 	}
 

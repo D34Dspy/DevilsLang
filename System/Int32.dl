@@ -6,7 +6,7 @@ class Int32 implements IConvertible, IEquatable<Int32>, IHashable
 	const Int32 MIN_VALUE = 0x80000000;
 	const Int32 MAX_VALUE = 0x7FFFFFFF;
 
-	public bool equals(const Int32 &other)
+	public bool operator==(const Int32 &other)
 	{
 	}
 

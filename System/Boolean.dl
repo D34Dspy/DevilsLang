@@ -3,7 +3,7 @@ import System;
 [Size=1]
 class Boolean implements IConvertible, IEquatable<Boolean>, IHashable
 {
-	public bool equals(const Boolean &other)
+	public bool operator==(const Boolean &other)
 	{
 	}
 

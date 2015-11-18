@@ -6,7 +6,7 @@ class UInt32 implements IConvertible, IEquatable<UInt32>, IHashable
 	const UInt32 MIN_VALUE = 0x0;
 	const UInt32 MAX_VALUE = 0xFFFFFFFF;
 
-	public bool equals(const UInt32 &other)
+	public bool operator==(const UInt32 &other)
 	{
 	}
 

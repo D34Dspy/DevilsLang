@@ -1,0 +1,19 @@
+import System;
+
+[Size=1]
+class Char implements IConvertible, IEquatable<Char>, IHashable
+{
+	public bool operator==(const Char &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using char = Char;

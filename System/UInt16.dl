@@ -6,7 +6,7 @@ class UInt16 implements IConvertible, IEquatable<UInt16>, IHashable
 	const UInt16 MIN_VALUE = 0x0;
 	const UInt16 MAX_VALUE = 0xFFFF;
 
-	public bool equals(const UInt16 &other)
+	public bool operator==(const UInt16 &other)
 	{
 	}
 

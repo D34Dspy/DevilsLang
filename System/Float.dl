@@ -3,7 +3,7 @@ import System;
 [Size=4]
 class Float implements IConvertible, IEquatable<Float>, IHashable
 {
-	public bool equals(const Float &other)
+	public bool operator==(const Float &other)
 	{
 	}
 

@@ -1,0 +1,6 @@
+import System;
+
+interface IHashable
+{
+	public abstract uint32 getHashCode();
+}

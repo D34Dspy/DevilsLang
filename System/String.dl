@@ -1,3 +1,12 @@
-class Boolean
+import System;
+
+class String implements IEquatable<String>, IHashable
 {
+	public bool equals(const String &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
 }

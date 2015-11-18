@@ -1,0 +1,7 @@
+import System;
+import System.Collections;
+
+interface IEnumerable<T>
+{
+	public abstract IEnumerator<T> getEnumerator();
+}

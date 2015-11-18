@@ -1,0 +1,10 @@
+import System;
+
+interface IEnumerator<T>
+{
+	public abstract T &getElement();
+	public abstract const T &getElement() const;
+	
+	public abstract bool moveNext();
+	public abstract void reset();
+}

@@ -1,10 +1,17 @@
 import System;
 
 [Size=1]
-class Boolean implements IConvertible
+class Boolean implements IConvertible, IEquatable<Boolean>, IHashable
 {
+	public bool equals(const Boolean &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
+
 	public String toString()
 	{
-		
 	}
 }

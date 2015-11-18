@@ -1,0 +1,7 @@
+import System;
+import System.Collections;
+
+class Set<T extends IEquatable & IHashable> implements ISet<T>
+{
+	public abstract IEnumerator<T> getEnumerator();
+}

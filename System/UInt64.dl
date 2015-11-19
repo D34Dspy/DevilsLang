@@ -3,8 +3,8 @@ import System;
 [Size=8]
 class UInt64 implements IConvertible, IEquatable<UInt64>, IHashable
 {
-	const UInt64 MIN_VALUE = 0x0;
-	const UInt64 MAX_VALUE = 0xFFFFFFFFFFFFFFFF;
+	static const UInt64 MinValue = 0x0;
+	static const UInt64 MAX_VALUE = 0xFFFFFFFFFFFFFFFF;
 
 	public bool operator==(const UInt64 &other)
 	{

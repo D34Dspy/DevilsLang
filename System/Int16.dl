@@ -3,8 +3,8 @@ import System;
 [Size=2]
 class Int16 implements IConvertible, IEquatable<Int16>, IHashable
 {
-	const Int16 MIN_VALUE = 0x8000;
-	const Int16 MAX_VALUE = 0x7FFF;
+	static const Int16 MinValue = 0x8000;
+	static const Int16 MAX_VALUE = 0x7FFF;
 
 	public bool operator==(const Int16 &other)
 	{

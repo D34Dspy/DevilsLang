@@ -3,8 +3,8 @@ import System;
 [Size=4]
 class UInt32 implements IConvertible, IEquatable<UInt32>, IHashable
 {
-	const UInt32 MIN_VALUE = 0x0;
-	const UInt32 MAX_VALUE = 0xFFFFFFFF;
+	static const UInt32 MinValue = 0x0;
+	static const UInt32 MAX_VALUE = 0xFFFFFFFF;
 
 	public bool operator==(const UInt32 &other)
 	{

@@ -3,8 +3,8 @@ import System;
 [Size=1]
 class Int8 implements IConvertible, IEquatable<Int8>, IHashable
 {
-	const Int8 MIN_VALUE = 0x80;
-	const Int8 MAX_VALUE = 0x7F;
+	static const Int8 MinValue = 0x80;
+	static const Int8 MAX_VALUE = 0x7F;
 
 	public bool operator==(const Int8 &other)
 	{

@@ -3,8 +3,8 @@ import System;
 [Size=8]
 class Int64 implements IConvertible, IEquatable<Int64>, IHashable
 {
-	const Int64 MIN_VALUE = 0x8000000000000000;
-	const Int64 MAX_VALUE = 0x7FFFFFFFFFFFFFFF;
+	static const Int64 MinValue = 0x8000000000000000;
+	static const Int64 MAX_VALUE = 0x7FFFFFFFFFFFFFFF;
 
 	public bool operator==(const Int64 &other)
 	{

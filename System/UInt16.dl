@@ -3,8 +3,8 @@ import System;
 [Size=2]
 class UInt16 implements IConvertible, IEquatable<UInt16>, IHashable
 {
-	const UInt16 MIN_VALUE = 0x0;
-	const UInt16 MAX_VALUE = 0xFFFF;
+	static const UInt16 MinValue = 0x0;
+	static const UInt16 MaxValue = 0xFFFF;
 
 	public bool operator==(const UInt16 &other)
 	{
